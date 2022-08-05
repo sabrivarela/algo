@@ -23,6 +23,7 @@ if (operacion == 1) {
     let numero2 = prompt("segundo  numero para sumar ");
     resultado = sumar (numero1,numero2);
     document.write (`tu resultado es ${resultado}`);
+}
     
 if (operacion == 4) {
     let numero1 = prompt("Primer número para sumar ");
