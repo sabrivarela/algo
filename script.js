@@ -8,3 +8,5 @@ function iniciarMap(){
       position: coord,
       map: map
     });
+function resta(){
+    alert("Ingresa el 
