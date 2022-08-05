@@ -26,8 +26,8 @@ if (operacion == 1) {
 }
     
 if (operacion == 4) {
-    let numero1 = prompt("Primer número para sumar ");
-    let numero2 = prompt("Segundo número para sumar ");
+    let numero1 = prompt("Primer número para sumar");
+    let numero2 = prompt("Segundo número para sumar");
     resultado = dividir (numero1,numero2);
     document.write (`Tu resultado es ${resultado}`);
 }
