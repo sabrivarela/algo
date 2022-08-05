@@ -1,12 +1,15 @@
-function iniciarMap(){
-    var coord = {lat:-34.7406171 ,lng: -56.087894};
-    var map = new google.maps.Map(document.getElementById('map'),{
-      zoom: 10,
-      center: coord
-    });
-    var marker = new google.maps.Marker({
-      position: coord,
-      map: map
-    });
-function resta(){
-    alert("Ingresa el 
+const sumar = (num1, num2)=>{
+    return parseInt(num1) + parseInt (num2)
+}
+
+const restar = (num1, num2)=>{
+    return parseInt(num1) - parseInt (num2)
+}
+
+const multiplicar = (num1, num2)=>{
+    return parseInt(num1) * parseInt (num2);
+}
+
+const dividr = (num1, num2)=>{
+    return parseInt(num1) / parseInt (num2);
+}
