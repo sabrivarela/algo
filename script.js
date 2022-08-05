@@ -16,7 +16,7 @@ const dividr = (num1, num2)=>{
 
 alert ("Que operacion queres realizar? ");
 
-let operacion = prompt("1: Sumar  2: Restar 3:  Multiplicar 4: Dividir " )
+let operacion = prompt("1: Sumar  2: Restar 3:  Multiplicar 4: Dividir " );
 
 if (operacion == 1) {
     let numero1 = prompt("Primer número para sumar: ");
